@@ -1,0 +1,58 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article > p::first-letter {
+    color: lightgray;
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+img {
+    width: 100%;
+}
+
+div.continue {
+    text-align: right;
+}
+
+div.continue > a {
+    color: tomato;
+    font-weight: bold;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+header > nav > ul > li > a, #copyright, time {
+    color: lightgray;
+}
+
+footer > nav > ul > li > a, h1 {
+    color: tomato;
+}
